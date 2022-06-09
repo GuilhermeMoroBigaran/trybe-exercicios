@@ -12,22 +12,32 @@
             color:orange;
         }
         /* 3 - Modifique a cor de fundo da lista não ordenada */
-        ul{
-            background-color:rgb(150,255,150);
+        #yellow{
+            background-color:yellow;
+            color: black
         } 
+        #red{
+            background-color: rgb(255,00,00);
+        }
+        #brown{
+            background-color: brown;
+        }
         /* 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo  */
         .favorite-colors{
-        background-color: #ddddff;
-        } 
+        background-color: #000000;
+        color: white;
+        font-weight: 600;
+        list-style: none;
+        }  
     </style>
 </head>
 <body>
     <h1>Exercícios 3.2</h1>
     <p class="favorite-colors">Qual é a sua cor favorita?</p>
     <ul class="favorite-colors">
-        <li>Amarelo</li>
-        <li>Vermelho</li>
-        <li>Marrom</li>
+        <li id="yellow">Amarelo</li>
+        <li id="red">Vermelho</li>
+        <li id="brown">Marrom</li>
     </ul>
 </body>
 </html>
