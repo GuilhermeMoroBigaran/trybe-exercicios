@@ -1,0 +1,58 @@
+/* 5 - Explore as propriedades font-style, line-height,  text-align e text-decoration*/
+/*3 - Modifique o font-size do body para 16px */
+body{
+    font-size: 16px;
+/* font-size: 100%; */
+}
+
+h1{
+    font-size:65px;
+    color:orange;
+    font-style: oblique;
+    text-align: center;
+    text-decoration:double;
+    text-decoration-line:underline;
+    text-decoration-color:navy;
+    text-decoration-thickness: 10px;
+/* 1 - Modifique o font-family do h1 para sans-serif */
+font-family:sans-serif;
+}
+/*  2 - Deixe o parágrafo com o font-weight 600
+    4 - Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body */
+p{
+    font-weight: 600px;
+    font-size: 3em;
+    font-style: italic;
+    text-align:center;
+}
+
+em{
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.favorite-colors{
+background-color: #000000;
+color: white;
+font-weight: 600;
+list-style: none;
+}
+
+ul{
+    line-height: 2em;
+}
+
+/* 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto */
+#yellow{
+    background-color:yellow;
+    color: black;
+    text-align: justify;
+} 
+#red{
+    background-color: rgb(255,00,00);
+    text-align: center;
+}
+#brown{
+    background-color: brown;
+    text-align: right;
+}

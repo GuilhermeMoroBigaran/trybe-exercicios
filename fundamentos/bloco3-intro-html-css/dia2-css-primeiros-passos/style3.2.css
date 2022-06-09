@@ -1,0 +1,24 @@
+/* 1 - Modifique o tamanho do h1 para 65 pixels */
+h1{
+    font-size:65px;
+/* 2 - Modifique a cor do texto do h1 para laranja */
+    color:orange;
+}
+/* 3 - Modifique a cor de fundo da lista não ordenada */
+#yellow{
+    background-color:yellow;
+    color: black
+} 
+#red{
+    background-color: rgb(255,00,00);
+}
+#brown{
+    background-color: brown;
+}
+/* 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo  */
+.favorite-colors{
+background-color: #000000;
+color: white;
+font-weight: 600;
+list-style: none;
+}
