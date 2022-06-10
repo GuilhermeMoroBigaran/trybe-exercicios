@@ -1,27 +1,64 @@
+/*CSS-Reset*/
+body{
+  padding:0;
+  margin:0;
+  border:0;
+  text-align:center;
+}
+
 h1 {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  .first {
-    background-color: rgb(235, 200, 84);
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 200px;
-  }
+.podium{
+  border: 1px solid blue;
+  text-align: center;
+  width: 610px;
+  display:block;
+  margin:auto;
+  padding: 0;
+}
 
-  .second {
-    background-color: rgb(219, 219, 219);
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 300px;
-  }
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align:center;
+  width: 200px;
+  display: block;
+  margin:auto;
+}
 
-  .third {
-    background-color: rgb(170, 142, 106);
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 300px;
-  }
+.second-third{
+  border: 1px solid red;
+  text-align:center;
+  height:50px;
+  width:605px;
+  display: block;
+  margin:auto;
+  padding:0;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin:0;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align:center;
+  width: 300px;
+  display: inline-block;
+  margin:0;
+}
+
+.section-title{
+  text-align:center;
+}
