@@ -11,4 +11,3 @@ O que eu vou aprender na Trybe:
 - Python
 - React
 - Ciência da Computação
-Com este simples arquivo, é possível praticar os principais comandos do git, como "git add", "git
