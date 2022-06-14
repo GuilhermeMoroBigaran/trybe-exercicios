@@ -99,12 +99,12 @@ Antes de tudo você deve copiar a sua chave SSH. Para isso, você vai aprender u
 
 Usando esse comando podemos fazer uma ponte diretamente entre os comandos que serão utilizados no terminal e a área de transferência do Linux, ou seja, dá pra copiar a saída de um comando de forma direta pelo terminal!
 
-# Como o xclip não vem instalado por padrão na maioria das distribuições,
-# precisaremos instalá-lo usando o comando a seguir:
+Como o xclip não vem instalado por padrão na maioria das distribuições,
+recisaremos instalá-lo usando o comando a seguir:
 sudo apt-get install xclip
 
-# Agora utilize o comando abaixo para copiar o conteúdo da sua chave id_rsa.pub
-# Para garantir que o conteúdo foi copiado dê Ctrl + V em um editor de texto
+Agora utilize o comando abaixo para copiar o conteúdo da sua chave id_rsa.pub
+Para garantir que o conteúdo foi copiado dê Ctrl + V em um editor de texto
 xclip -sel clip < ~/.ssh/id_rsa.pub
 
 Entre no seu GitHub e siga os passos abaixo:
