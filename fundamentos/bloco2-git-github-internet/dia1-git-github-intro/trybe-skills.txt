@@ -1,0 +1,14 @@
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- HTML
+- CSS
+- JavaScript
+- Front End
+- Back End
+- Python
+- React
+- Ciência da Computação
+Com este simples arquivo, é possível praticar os principais comandos do git, como "git add", "git
