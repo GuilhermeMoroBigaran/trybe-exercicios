@@ -10,10 +10,7 @@ h1{
     color:orange;
     font-style: oblique;
     text-align: center;
-    text-decoration:double;
-    text-decoration-line:underline;
-    text-decoration-color:navy;
-    text-decoration-thickness: 10px;
+    text-decoration: underline double navy 5px;
 /* 1 - Modifique o font-family do h1 para sans-serif */
 font-family:sans-serif;
 }
@@ -24,6 +21,7 @@ p{
     font-size: 3em;
     font-style: italic;
     text-align:center;
+    line-height: 2em;
 }
 
 em{
@@ -53,6 +51,6 @@ ul{
     text-align: center;
 }
 #brown{
-    background-color: brown;
+    background-color: rgba(255, 50, 0, 0.466);
     text-align: right;
 }
